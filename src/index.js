@@ -1,8 +1,13 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import NotesApp from "./notesApp";
 
 // import style
-import './styles/style.css';
+import "./styles/style.css";
 
-const root = createRoot(document.getElementById('root'));
-root.render(<h1>Hello, World!</h1>);
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <NotesApp />
+  </React.StrictMode>
+);

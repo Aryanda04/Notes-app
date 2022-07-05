@@ -1,0 +1,22 @@
+header {
+    padding: 0 1rem;
+    background: red;
+    top:0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formInput {
+    padding: 2rem;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: green;
+}
+.formInput h2{
+    font-size: 40px;
+}

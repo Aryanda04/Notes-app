@@ -17,12 +17,12 @@ const Card = ({ id, title, createdAt, body, archived, action }) => {
   };
 
   return (
-    <article id={id} className="">
-      <header className="">
+    <article id={id} className="notes_card">
+      <div className="">
         <h3 className="">{title}</h3>
         <small className="">{showFormattedDate(createdAt)}</small>
         <p className="">{body}</p>
-      </header>
+      </div>
       <footer className="">
         <Button eventHandler={() => deleteNote(id)} label="delete" />
         <Button

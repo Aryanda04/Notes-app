@@ -2,8 +2,8 @@ import Input from "./input";
 
 const Navbar = ({ search, updateQuery }) => {
   return (
-    <header className="">
-      <h1 className="">Rey&apos;s Note</h1>
+    <header>
+      <h1 className="">Zhen`s Note</h1>
       <Input
         value={search}
         onChange={updateQuery}

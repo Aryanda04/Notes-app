@@ -23,11 +23,11 @@ const FormInput = ({ updateNotes }) => {
   };
 
   return (
-    <form className="" onSubmit={createNote}>
-      <h2 className="">Create a note</h2>
-      <small className="">
+    <form className="formInput" onSubmit={createNote}>
+      <h2>Create a note</h2>
+      <p>
         Remaining characters: <span className="">{50 - title.length}</span>
-      </small>
+      </p>
       <Input
         value={title}
         onChange={setTitle}

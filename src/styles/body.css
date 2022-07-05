@@ -1,0 +1,18 @@
+/* CARD */
+.notes_card{
+    background: blue;
+    width: 20%;
+}
+
+.main_container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.notes_container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+}

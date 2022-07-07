@@ -1,6 +1,8 @@
 header {
     padding: 0 1rem;
-    background: red;
+    box-shadow: -1px 8px 28px 8px rgba(0,0,0,0.43);
+    -webkit-box-shadow: -1px 8px 28px 8px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px 8px 28px 8px rgba(0,0,0,0.43);
     top:0;
     text-align: center;
     align-items: center;
@@ -11,7 +13,7 @@ header {
 
 .formInput {
     padding: 2rem;
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 50%;
     display: flex;
     flex-direction: column;

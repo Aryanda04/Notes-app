@@ -1,9 +1,9 @@
 header {
     padding: 0 1rem;
-    box-shadow: -1px 8px 28px 8px rgba(0,0,0,0.43);
-    -webkit-box-shadow: -1px 8px 28px 8px rgba(0,0,0,0.43);
-    -moz-box-shadow: -1px 8px 28px 8px rgba(0,0,0,0.43);
-    top:0;
+    box-shadow: -1px 8px 28px 8px rgba(0, 0, 0, 0.43);
+    -webkit-box-shadow: -1px 8px 28px 8px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: -1px 8px 28px 8px rgba(0, 0, 0, 0.43);
+    top: 0;
     text-align: center;
     align-items: center;
     display: flex;
@@ -17,8 +17,12 @@ header {
     width: 50%;
     display: flex;
     flex-direction: column;
-    background: green;
+    border-radius: 3px;
+    box-shadow: -1px 8px 28px 8px rgba(0, 0, 0, 0.43);
+    -webkit-box-shadow: -1px 8px 28px 8px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: -1px 8px 28px 8px rgba(0, 0, 0, 0.43);
 }
-.formInput h2{
+
+.formInput h2 {
     font-size: 40px;
 }

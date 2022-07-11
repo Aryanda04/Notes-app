@@ -3,7 +3,7 @@
 const Button = ({ label, eventHandler }) => {
   return (
     <button
-      className=""
+      className="`  "
       type="button"
       onClick={eventHandler}
       data-action={label}

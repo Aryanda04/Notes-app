@@ -24,6 +24,23 @@ const Card = ({ id, title, createdAt, body, archived, action }) => {
         <p className="">{body}</p>
       </div>
       <footer className="">
+      {/* <button
+      className="`  "
+      type="button"
+      onClick={deleteNote(id)}
+      data-action="delete"
+    >
+      delete
+    </button> */}
+    {/* <button
+      className="`  "
+      type="button"
+      onClick={toggleArchive(id)}
+      data-action="archive"
+      label={archived ? "unarchived" : "archive"}
+    >
+      archive
+    </button > */}
         <Button eventHandler={() => deleteNote(id)} label="delete" />
         <Button
           eventHandler={() => toggleArchive(id)}
